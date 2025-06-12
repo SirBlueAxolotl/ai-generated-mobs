@@ -1,7 +1,8 @@
-package net.sba.sheep_ghast;
+package net.sba.aigenmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.sba.aigenmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class AiGeneratedMobs implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }

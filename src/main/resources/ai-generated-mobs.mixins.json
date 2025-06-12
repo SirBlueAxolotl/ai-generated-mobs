@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.sba.sheep_ghast.mixin",
+	"package": "net.sba.aigenmod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

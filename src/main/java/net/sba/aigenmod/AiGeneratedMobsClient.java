@@ -1,4 +1,4 @@
-package net.sba.sheep_ghast;
+package net.sba.aigenmod;
 
 import net.fabricmc.api.ClientModInitializer;
 

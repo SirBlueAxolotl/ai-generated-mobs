@@ -1,4 +1,4 @@
-package net.sba.sheep_ghast.mixin;
+package net.sba.aigenmod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
