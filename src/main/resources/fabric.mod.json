@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ai-generated-mobs",
+	"version": "${version}",
+	"name": "ai generated mobs",
+	"description": "AI Generated Mobs",
+	"authors": [
+		"SirBlueAxolotl"
+	],
+	"contact": {
+		"homepage": "https://google.com",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ai-generated-mobs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sba.sheep_ghast.AiGeneratedMobs"
+		],
+		"fabric-datagen": [
+			"net.sba.sheep_ghast.AiGeneratedMobsDataGenerator"
+		],
+		"client": [
+			"net.sba.sheep_ghast.AiGeneratedMobsClient"
+		]
+	},
+	"mixins": [
+		"ai-generated-mobs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
