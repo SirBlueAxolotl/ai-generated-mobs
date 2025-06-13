@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "ai-generated-mobs",
+	"id": "aigenmod",
 	"version": "${version}",
 	"name": "ai generated mobs",
 	"description": "test",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/SirBlueAxolotl/ai-generated-mobs"
 	},
 	"license": "MIT",
-	"icon": "assets/ai-generated-mobs/icon.png",
+	"icon": "assets/aigenmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
