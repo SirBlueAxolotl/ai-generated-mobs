@@ -12,7 +12,6 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item GREEN_STICK = registerItem("green_stick", new Item(new Item.Settings()));
 
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(AiGeneratedMobs.MOD_ID, name), item);
     }
