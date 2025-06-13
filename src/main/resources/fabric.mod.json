@@ -3,26 +3,26 @@
 	"id": "ai-generated-mobs",
 	"version": "${version}",
 	"name": "ai generated mobs",
-	"description": "AI Generated Mobs",
+	"description": "test",
 	"authors": [
 		"SirBlueAxolotl"
 	],
 	"contact": {
-		"homepage": "https://google.com",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://google.com/",
+		"sources": "https://github.com/SirBlueAxolotl/ai-generated-mobs"
 	},
 	"license": "MIT",
 	"icon": "assets/ai-generated-mobs/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.sba.sheep_ghast.AiGeneratedMobs"
+			"net.sba.aigenmod.AiGeneratedMobs"
 		],
 		"fabric-datagen": [
-			"net.sba.sheep_ghast.AiGeneratedMobsDataGenerator"
+			"net.sba.aigenmod.AiGeneratedMobsDataGenerator"
 		],
 		"client": [
-			"net.sba.sheep_ghast.AiGeneratedMobsClient"
+			"net.sba.aigenmod.AiGeneratedMobsClient"
 		]
 	},
 	"mixins": [
