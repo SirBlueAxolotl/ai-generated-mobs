@@ -10,7 +10,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-// very important
 public class ModItems {
     public static final Item GREEN_STICK = registerItem("green_stick",new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(AiGeneratedMobs.MOD_ID,"green_stick")))));
 
